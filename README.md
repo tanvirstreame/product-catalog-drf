@@ -9,7 +9,7 @@
 
 ### Tech
 
-* Django rest framwework
+* Django rest framework
 
 ### Installation
 

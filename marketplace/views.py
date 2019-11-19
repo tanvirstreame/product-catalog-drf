@@ -34,7 +34,7 @@ class ProductDetail(generics.RetrieveAPIView):
 
 class ProductAttribute(generics.RetrieveAPIView):
     '''
-    Retrieve single product
+    Retrieve single product and patch attribute
     '''
     serializer_class = ProductAllSerializer
     queryset = Product.objects.all()
